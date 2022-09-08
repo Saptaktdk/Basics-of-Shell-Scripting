@@ -1,0 +1,22 @@
+Integer Comaprison
+
+-eq : is equal to : if [ "$a" -eq "$b" ]
+-ne : not equal to : if [ "$a" -ne "$b" ]
+-gt : greater than : if [ "$a" -gt "$b" ]
+-ge : greater than or equal to : if [ "$a" -ge "$b" ]
+-lt : less than : if [ "$a" -lt "$b" ]
+-le : less than or equal to : if [ "$a" -le "$b" ]
+
+< : less than : (("$a" < "$b"))
+<=: less than or equal to : (("$a" <= "$b"))
+> : greater than : (("$a" > "$b"))
+>=; greater than or equal to : (("$a" >= "$b"))
+
+String Comaprison
+
+= : is equal to : if [ "$a" = "$b"]
+==: is equal to : if [ "$a" == "$b"]
+!=: is not equal to : if [ "$a" != "$b"]
+< : is less than, in ASCII alphabetical order : if [[ "$a" < "$b"]]
+> : is greater than, in ASCII alphabetical order : if [[ "$a" > "$b"]]
+-z: string is null, i.e has 0 length
